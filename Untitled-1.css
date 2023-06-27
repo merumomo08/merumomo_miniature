@@ -1,0 +1,158 @@
+body{
+    flex-direction: column;
+    display: flex;
+    margin:0; /*ブラウザの初期設定の余白を削除*/
+    font-family: "ヒラギノ丸ゴ ProN"; 
+}
+  ul{
+    list-style: none; /*リストタグの最初の中黒を削除*/
+  }
+  a{
+    color:#666;
+    text-decoration: none;
+  }
+  a:hover{ /*疑似クラス(セレクタ)　後日説明*/
+    color:#00F;
+  }
+.header{
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #ecdcb4;
+    display: flex;
+    align-content:center ;
+    white-space: nowrap;
+}
+.header_contets{
+    height: 100px;
+    display: flex;
+    align-content: center;
+}
+.logo{
+    width: 240px;
+    font-size: 14px;
+    display: flex;
+    align-items:center ;
+}
+.logo img{
+    height: 80px;
+    margin-top: 15px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+}
+.navi{
+    margin-left: 500px;
+    top: 30px;
+    right: 25px;
+  }
+.navi ul{
+    display: flex;
+}
+.navi li{
+    margin-left:40px;
+  }
+.contents{
+    margin-left: 70px;
+    margin-right: 70px;
+    
+}
+.visual{
+    height: 370px;
+
+    background: url("植物園3.jpg") no-repeat center center;
+    display: flex;
+    align-items: center;
+}
+.copy{
+    color:#FFF;
+    margin-left:100px;
+    font:normal 32px/2em sans-serif;
+    
+}
+.maincopy{
+    font-size: 24px;
+    margin-top: 50px;
+    padding: 0 0 10px;
+    width: auto;
+    font-family: "ヒラギノ丸ゴ ProN"; 
+    line-height: 1.75;  
+    display:flex;
+    text-align: center;
+    justify-content:center
+    
+    
+    
+    
+    
+}
+.subcopy{
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: "ヒラギノ丸ゴ ProN"; 
+    line-height: 1.75;  
+    display:flex;
+    text-align: center;
+    justify-content:center
+    
+    
+    
+}
+.syasin_wrapper{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    margin: 30px;
+    padding: 5px;
+    
+}
+.syasin{
+    width:33%;
+    height: 60px;
+    margin-top:50px;
+    padding:0 15px;
+    text-align:center;
+    
+}
+.syasin img{
+    width: 300px;
+}
+.text_wrapper{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: auto;
+    padding-bottom: 200px;
+}
+.catchcopy{
+    width:980px;
+    margin:80px auto 100px;
+    display:flex;
+}
+.readcopy{
+    color:#9941D8;
+    font: bold 36px/1 sans-serif;
+    text-align:center;
+    flex:1; /* flexボックスプロパティ 後日説明　幅は1:3の割合で配置*/
+}
+.bodycopy{
+    padding-left:20px;
+    font: normal 1em/1.4 serif;
+    flex:3; /* 幅は1:3の割合で配置 */
+}
+  
+.footer{
+    margin-bottom: 20px;
+    background-color: #ecdcb4;
+    display: flex;
+    align-content:center ;
+    height: 180px;
+    margin-top:30px;
+
+}
+.footer_contents{
+    text-align: center;
+    background-color: #ecdcb4;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+}
